@@ -1,1 +1,2 @@
-consoul.log("hi welcome to git ")
+consoul.log("hi")
+consoul.log("welcome")
