@@ -36,7 +36,7 @@
 <div dir="ltr" align="left">
 
 ```
- Dev: git status
+% git status
 On branch master
 Your branch is up to date with 'origin/master'.
 ```
@@ -59,7 +59,7 @@ Your branch is up to date with 'origin/master'.
 <div dir="ltr" align="left">
 
 ```
-Dev: git status
+% git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -76,8 +76,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 <div dir="ltr" align="left">
 
 ```
-Dev: git add app.js
-Dev: git status
+% git add app.js
+% git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -107,7 +107,7 @@ Changes to be committed:
 <div dir="ltr" align="left">
 
 ```
-Dev: git status
+% git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -133,8 +133,8 @@ Changes not staged for commit:
  <div dir="ltr" align="left">
 
 ```
-Dev: git add file-stages.md
-Dev: git status
+% git add file-stages.md
+% git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -168,7 +168,7 @@ Changes to be committed:
 <div dir="ltr" align="left">
 
 ```
-Dev: git status -s
+% git status -s
 A  app.js
 M  file-stages.md
 ```
@@ -247,7 +247,7 @@ index e69de29..c989436 100644
 
 ```
  
-git commit -m "first commit massage" 
+ % git commit -m "first commit massage" 
 [master 6039f40] first commit massage
  3 files changed, 2 insertions(+)
  create mode 100644 .gitignore
@@ -302,8 +302,8 @@ git تمكنك من تغيير اسماء الملفات باستخدام امر
 <div dir="ltr" align="left">
 
 ```
-$ git mv README.md README
-$ git status
+% git mv README.md README
+% git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
